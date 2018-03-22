@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace TanUppg3
 {
+
+    //deklarera om properties är private/public ect 
     class Country
     {
             string Namn { get; set; }

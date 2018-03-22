@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 
 namespace TanUppg3
 {
+    //deklarera om properties är private/public ect 
     class City
     {
             string Namn { get; set; }
@@ -29,7 +30,7 @@ namespace TanUppg3
                 this.Medelkostnaden = 0;
 
             {
-
+                //  Denna del av koden (datakonverteringen) ska inte vara i Classen City.  Kan inte testköra din kod, så jag vet inte om detta funkar, men du bör flytta denna del till "Form1.Designer.cs". 
                 SqlConnection conn = new SqlConnection();
                 conn.ConnectionString = "server=(local);Integrated Security=True; initial catalog=uppg3";
                 conn.Open();

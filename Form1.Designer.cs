@@ -10,7 +10,9 @@ namespace TanUppg3
             City barcelona = new City("Barcelona", 1604555, 36902, 9070000);
             City boston = new City("Boston", 687584, 75297, 2210000);
             City amsterdam = new City("Amsterdam", 851573, 47950, 5340000);
-        
+
+        // vad gör denna kod? 
+
             private System.ComponentModel.IContainer components = null;
                                                        
             protected override void Dispose(bool disposing)

@@ -1,0 +1,16 @@
+Kommenterad av Momina Parvez 2018-03-22
+
+Bra jobbat! Har inte kunnat köra din kod - har endast kunnat gå på hur din kod ser ut. 
+De saker jag framförallt tänkte på är (har även skrivit några kommentarer direkt i din kod):  
+
+* Du bör flytta på koden för din SQL-connection och datakonvertingar City-klassen till Form1.Designercs. I city-klassen
+bör du endast ha med sådan som har med den givna klassen att göra. Jag tror att placeringen av SQL-connectionkoden kan komprimera körningen av din data. 
+* Du bör deklarera om dina properties i klasserna är public/private ect. Vet inte om C# har ett defaultvärde? 
+* Allmänt kommentera mer i din kodning så man förstår vad som sker. 
+* Bör lägga till en if-sats i datakonverteringen för "Borough" för att undersöka om borough är en sträng (då ska den läsa in) annars ska den retunera ett tomt värde. 
+* Lite osäker på om du gjort detta "• Alla datapunkter (instanser) i de 3 SQL-tabellerna skall läsas in som objekt i respektive lista i
+City objekten (Amsterdam, Boston, Barcelona)" .. Men kan vara för att jag inte förstår din kod helt, pga att jag själv inte kan koda så bra i c# :)
+* Du kan även lägga till dessa i Form1: using System.Data.SqlClient;
+using System.Windows.Forms.DataVisualization.Charting; så slipper du anropa koden i Form1. 
+
+Som sagt, bra jobbat annars!

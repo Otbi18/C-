@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace TanUppg3
 {
+
+    // Deklarera om dina properties är private/public ect? 
+
     class Accommodation
     {
             int Room_id { get; set; }
